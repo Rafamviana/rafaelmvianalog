@@ -167,6 +167,14 @@ header .footer p a {
     left: 0;
 }
 
+/* Teste */
+@media only screen and (max-width: 670px) {
+
+    #MenuBtn {
+        display: none;
+    }
+}
+
 main {
     margin-left: 300px;
     background-color: var(--bgColor);
@@ -1070,4 +1078,5 @@ main {
     #contact {
         padding: 50px 10px;
     }
+
 }
